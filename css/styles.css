@@ -1,3 +1,17 @@
+/*основной цвет текста #212121*/
+/*вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* цвет фона #ffffff */
+/* вторичный цвет фона F5F4FA */
+/* цвет героя и футера #2F303A */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-fone-color: #ffffff;
+  --second-fone-color: #f5f4fa;
+  --hero-footer-color: #2f303a;
+}
 body {
-  background-color: teal;
+  background-color: var(--primary-white-color);
 }
