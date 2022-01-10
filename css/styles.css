@@ -13,5 +13,28 @@
   --hero-footer-color: #2f303a;
 }
 body {
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-fone-color);
+}
+/* Header */
+.logo {
+  color: #000000;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+/* Nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+/* Section */
+.section-title {
+  color: var(--title-text-color);
 }
