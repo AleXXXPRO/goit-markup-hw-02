@@ -93,11 +93,9 @@ a {
 }
 .btn-hero {
   font-family: inherit;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
   display: flex;
   align-items: center;
   text-align: center;
