@@ -18,6 +18,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--primary-fone-color);
 }
 .list {
   list-style: none;
@@ -60,7 +61,8 @@ a {
   color: var(--header-text-color);
 }
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.current {
   color: var(--accent-color);
 }
 
@@ -104,8 +106,8 @@ a {
   color: var(--btn-color);
   background-color: var(--accent-color);
 }
+/* Main  */
 .features-after-title {
-  font-weight: ;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -123,6 +125,9 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+.section-team {
+  background-color: #f5f4fa;
 }
 .team-title {
   font-size: 36px;
@@ -152,4 +157,50 @@ a {
   letter-spacing: 0.03em;
   color: var(--second-title-text);
   background-color: violet;
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: violet;
+}
+.footer-tel {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: violet;
+}
+/* ----------Страница Portfolio -------------*/
+.button {
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+}
+.button:hover,
+.buton:focus {
+  color: var(--btn-color);
+  background-color: var(--accent-color);
+}
+.gallery-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-text-color);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
