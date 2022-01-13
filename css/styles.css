@@ -65,16 +65,21 @@ a {
 .current {
   color: var(--accent-color);
 }
-
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .auth-nav-mail {
-  color: var(--header-text-color);
+  color: var(--primary-text-color);
 }
 .auth-nav-mail:hover,
 .auth-nav-mail:focus {
   color: var(--accent-color);
 }
 .auth-nav-tel {
-  color: var(--header-text-color);
+  color: var(--primary-text-color);
 }
 .auth-nav-tel:hover,
 .auth-nav-tel:focus {
@@ -150,6 +155,7 @@ a {
   letter-spacing: 0.03em;
 }
 .addres-fiz {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -186,12 +192,14 @@ a {
 }
 /* ----------Страница Portfolio -------------*/
 .button {
-  color: inherit;
+  /* color: inherit; */
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
   background-color: #f5f4fa;
 }
 .button:hover,
