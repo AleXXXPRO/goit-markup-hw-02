@@ -158,6 +158,10 @@ a {
   color: var(--second-title-text);
   background-color: violet;
 }
+.addres-fiz:hover,
+.addres-fiz:focus {
+  color: var(--accent-color);
+}
 .footer-mail {
   font-style: normal;
   font-weight: 400;
@@ -167,14 +171,18 @@ a {
   color: rgba(255, 255, 255, 0.6);
   background-color: violet;
 }
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 .footer-tel {
   font-style: normal;
 
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
   background-color: violet;
 }
