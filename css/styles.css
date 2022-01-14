@@ -109,6 +109,7 @@ a {
   color: var(--btn-color);
   background-color: var(--accent-color);
 }
+
 /* Main  */
 .features-after-title {
   font-size: 14px;
@@ -117,7 +118,7 @@ a {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.features-item {
+.features-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
